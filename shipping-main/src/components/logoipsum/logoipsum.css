@@ -1,0 +1,35 @@
+.logocontainer {
+  background-color: #1195d6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  min-height: 20vh;
+}
+
+@media screen and (max-width: 480px) {
+  .logoipsumImg img {
+    width: 65px;
+  }
+  .logocontainer {
+    min-height: 5vh;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .logoipsumImg img {
+    width: 120px;
+  }
+  .logocontainer {
+    min-height: 10vh;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1280px) {
+  .logoipsumImg img {
+    width: 160px;
+  }
+  .logocontainer {
+    min-height: 10vh;
+  }
+}

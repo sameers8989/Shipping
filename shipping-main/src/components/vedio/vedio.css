@@ -1,0 +1,52 @@
+.vedio {
+  background-image: url("../../Assets/vedioImg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 2rem;
+}
+
+.vediotop {
+  min-height: 43vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.vedioPlaybutton img {
+  width: 80px;
+}
+
+.vedioheading {
+  font-family: "Space Grotesk";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 83.2px */
+  text-transform: uppercase;
+}
+
+.vediotxt {
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+@media screen and (max-width: 480px) {
+  .vedioheading {
+    font-size: 45px;
+  }
+
+  .vediotxt {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+  }
+}

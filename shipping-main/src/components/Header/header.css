@@ -1,0 +1,62 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  align-items: center;
+}
+
+.headerleft {
+  display: flex;
+  gap: 2rem;
+}
+
+.email {
+  letter-spacing: 0.8px;
+  font-family: math;
+}
+
+.number {
+  font-family: math;
+}
+
+.getquote {
+  background-color: #1195d6;
+  color: white;
+  border: none;
+  padding: 12px 45px;
+  border-radius: 10px;
+  font-family: math;
+}
+
+/* small screen */
+
+@media screen and (max-width: 480px) {
+  .headerContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .headerleft {
+    gap: 9px;
+    font-size: 10px;
+  }
+
+  .getquote {
+    padding: 12px 20px;
+    font-size: 9px;
+  }
+}
+
+/* medium screen */
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .getquote {
+    padding: 12px 20px;
+    font-size: 13px;
+  }
+
+  .headerleft {
+    font-style: 12px;
+  }
+}
